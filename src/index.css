@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+  .category {
+    margin-top: 70%;
+  }
+}
+
+.my-bg{
+  background-image: url('./assets/images/bg.svg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
